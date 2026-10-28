@@ -1,0 +1,20 @@
+{
+  "dependencies": [
+    {
+      "name": "doctest",
+      "version": "2.5.3",
+      "source": "https://github.com/doctest/doctest/archive/refs/tags/v2.5.3.tar.gz",
+      "archive": "archives/doctest-2.5.3.tar.gz",
+      "sha256": "174ebc4e769928959614789c5b4e9c3d0a0f81a62bb608756b127bfebfb21331",
+      "license": "MIT"
+    },
+    {
+      "name": "Google Benchmark",
+      "version": "1.9.5",
+      "source": "https://github.com/google/benchmark/archive/refs/tags/v1.9.5.tar.gz",
+      "archive": "archives/benchmark-1.9.5.tar.gz",
+      "sha256": "9631341c82bac4a288bef951f8b26b41f69021794184ece969f8473977eaa340",
+      "license": "Apache-2.0"
+    }
+  ]
+}

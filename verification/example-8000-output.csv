@@ -1,0 +1,8 @@
+metric,value
+method,partition
+sample_count,10
+confidence_bps,8000
+value_at_risk,60
+expected_shortfall,90
+mean_loss,27
+worst_loss,100

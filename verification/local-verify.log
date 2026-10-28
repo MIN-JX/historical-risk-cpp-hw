@@ -1,0 +1,363 @@
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 (found suitable version "3.14.6", minimum required is "3.9") found components: Interpreter
+-- Found Git: /usr/bin/git (found version "2.54.0 (Apple Git-157)")
+-- Google Benchmark version: v1.9.5, normalized to 1.9.5
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - not found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2
+-- Performing Test HAVE_CXX_FLAG_WFORMAT_2 - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include
+-- Performing Test THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Performing Test STD_REGEX -- success
+-- Performing Test STEADY_CLOCK -- success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test PTHREAD_AFFINITY -- failed
+-- Found Doxygen: /opt/homebrew/bin/doxygen (found version "1.18.0") found components: doxygen missing components: dot
+-- Configuring done (5.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /private/tmp/mjx-risk-final-reproduction-20261026/build
+[  6%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  6%] Building CXX object CMakeFiles/risk_core.dir/src/analytics.cpp.o
+[  9%] Linking CXX static library librisk_core.a
+[  9%] Built target risk_core
+[ 12%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[ 15%] Building CXX object _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/doctest.cpp.o
+[ 18%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[ 21%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[ 25%] Linking CXX static library libdoctest_with_main.a
+[ 25%] Built target doctest_with_main
+[ 28%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[ 31%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[ 34%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[ 37%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[ 40%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[ 43%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[ 46%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[ 50%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[ 53%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[ 56%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[ 59%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[ 62%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[ 65%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[ 68%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[ 75%] Building CXX object CMakeFiles/risk_analytics.dir/src/main.cpp.o
+[ 78%] Linking CXX static library libbenchmark.a
+[ 78%] Built target benchmark
+[ 81%] Building CXX object CMakeFiles/risk_tests.dir/tests/test_risk.cpp.o
+[ 84%] Linking CXX executable bin/risk_analytics
+[ 84%] Built target risk_analytics
+[ 87%] Building CXX object CMakeFiles/risk_benchmark.dir/benchmarks/benchmark_risk.cpp.o
+/private/tmp/mjx-risk-final-reproduction-20261026/historical-risk-cpp/benchmarks/benchmark_risk.cpp:37:37: warning: 'Benchmark' is deprecated: Use ::benchmark::Benchmark instead [-Wdeprecated-declarations]
+   37 | void workloads(benchmark::internal::Benchmark* experiment) {
+      |                                     ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:1385:9: note: 'Benchmark' has been explicitly marked deprecated here
+ 1385 | typedef BENCHMARK_DEPRECATED_MSG("Use ::benchmark::Benchmark instead")
+      |         ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+/private/tmp/mjx-risk-final-reproduction-20261026/historical-risk-cpp/benchmarks/benchmark_risk.cpp:45:16: warning: 'DoNotOptimize<double>' is deprecated: The const-ref version of this method can permit undesired compiler optimizations in benchmarks [-Wdeprecated-declarations]
+   45 |     benchmark::DoNotOptimize(metrics.value_at_risk);
+      |                ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:530:1: note: 'DoNotOptimize<double>' has been explicitly marked deprecated here
+  530 | BENCHMARK_DEPRECATED_MSG(
+      | ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+/private/tmp/mjx-risk-final-reproduction-20261026/historical-risk-cpp/benchmarks/benchmark_risk.cpp:46:16: warning: 'DoNotOptimize<double>' is deprecated: The const-ref version of this method can permit undesired compiler optimizations in benchmarks [-Wdeprecated-declarations]
+   46 |     benchmark::DoNotOptimize(metrics.expected_shortfall);
+      |                ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:530:1: note: 'DoNotOptimize<double>' has been explicitly marked deprecated here
+  530 | BENCHMARK_DEPRECATED_MSG(
+      | ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+/private/tmp/mjx-risk-final-reproduction-20261026/historical-risk-cpp/benchmarks/benchmark_risk.cpp:47:16: warning: 'DoNotOptimize<double>' is deprecated: The const-ref version of this method can permit undesired compiler optimizations in benchmarks [-Wdeprecated-declarations]
+   47 |     benchmark::DoNotOptimize(metrics.mean_loss);
+      |                ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:530:1: note: 'DoNotOptimize<double>' has been explicitly marked deprecated here
+  530 | BENCHMARK_DEPRECATED_MSG(
+      | ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+/private/tmp/mjx-risk-final-reproduction-20261026/historical-risk-cpp/benchmarks/benchmark_risk.cpp:48:16: warning: 'DoNotOptimize<double>' is deprecated: The const-ref version of this method can permit undesired compiler optimizations in benchmarks [-Wdeprecated-declarations]
+   48 |     benchmark::DoNotOptimize(metrics.worst_loss);
+      |                ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:530:1: note: 'DoNotOptimize<double>' has been explicitly marked deprecated here
+  530 | BENCHMARK_DEPRECATED_MSG(
+      | ^
+/private/tmp/mjx-risk-final-reproduction-20261026/build/_deps/benchmark-src/include/benchmark/benchmark.h:229:54: note: expanded from macro 'BENCHMARK_DEPRECATED_MSG'
+  229 | #define BENCHMARK_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+      |                                                      ^
+5 warnings generated.
+[ 90%] Linking CXX executable bin/risk_benchmark
+[ 90%] Built target risk_benchmark
+[ 93%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[ 96%] Linking CXX static library libbenchmark_main.a
+[ 96%] Built target benchmark_main
+[100%] Linking CXX executable bin/risk_tests
+[100%] Built target risk_tests
+Test project /private/tmp/mjx-risk-final-reproduction-20261026/build
+      Start  1: integer tail gives the mean of exactly the worst observations
+ 1/29 Test  #1: integer tail gives the mean of exactly the worst observations ...............   Passed    0.00 sec
+      Start  2: fractional tail includes only its prescribed boundary mass
+ 2/29 Test  #2: fractional tail includes only its prescribed boundary mass ..................   Passed    0.00 sec
+      Start  3: basis points avoid floating point rank rounding at eighty percent
+ 3/29 Test  #3: basis points avoid floating point rank rounding at eighty percent ...........   Passed    0.00 sec
+      Start  4: ties do not expand the integer tail to every value at or above VaR
+ 4/29 Test  #4: ties do not expand the integer tail to every value at or above VaR ..........   Passed    0.00 sec
+      Start  5: fractional tail treats repeated boundary values consistently
+ 5/29 Test  #5: fractional tail treats repeated boundary values consistently ................   Passed    0.00 sec
+      Start  6: an entirely profitable sample retains negative risk values
+ 6/29 Test  #6: an entirely profitable sample retains negative risk values ..................   Passed    0.00 sec
+      Start  7: all zero losses give exactly zero statistics
+ 7/29 Test  #7: all zero losses give exactly zero statistics ................................   Passed    0.00 sec
+      Start  8: identical losses have identical quantile tail mean and full mean
+ 8/29 Test  #8: identical losses have identical quantile tail mean and full mean ............   Passed    0.00 sec
+      Start  9: a single observation defines every statistic
+ 9/29 Test  #9: a single observation defines every statistic ................................   Passed    0.00 sec
+      Start 10: one basis point confidence uses nearly the full sample tail
+10/29 Test #10: one basis point confidence uses nearly the full sample tail .................   Passed    0.00 sec
+      Start 11: very high confidence retains the worst loss even for a fractional tail
+11/29 Test #11: very high confidence retains the worst loss even for a fractional tail ......   Passed    0.00 sec
+      Start 12: ninety seven point five percent uses a half observation when needed
+12/29 Test #12: ninety seven point five percent uses a half observation when needed .........   Passed    0.00 sec
+      Start 13: ordinary decimal observations preserve their mean
+13/29 Test #13: ordinary decimal observations preserve their mean ...........................   Passed    0.00 sec
+      Start 14: permuting observations leaves every statistic unchanged
+14/29 Test #14: permuting observations leaves every statistic unchanged .....................   Passed    0.00 sec
+      Start 15: adding a constant translates every loss statistic
+15/29 Test #15: adding a constant translates every loss statistic ...........................   Passed    0.00 sec
+      Start 16: multiplying by a positive constant scales every statistic
+16/29 Test #16: multiplying by a positive constant scales every statistic ...................   Passed    0.00 sec
+      Start 17: both methods leave the caller observations unchanged
+17/29 Test #17: both methods leave the caller observations unchanged ........................   Passed    0.00 sec
+      Start 18: increasing confidence cannot decrease the empirical upper tail
+18/29 Test #18: increasing confidence cannot decrease the empirical upper tail ..............   Passed    0.00 sec
+      Start 19: deterministic varied samples agree with quantile ranks and each other
+19/29 Test #19: deterministic varied samples agree with quantile ranks and each other .......   Passed    0.00 sec
+      Start 20: empty samples are rejected
+20/29 Test #20: empty samples are rejected ..................................................   Passed    0.00 sec
+      Start 21: confidence must be an integer basis point value strictly within endpoints
+21/29 Test #21: confidence must be an integer basis point value strictly within endpoints ...   Passed    0.00 sec
+      Start 22: nonfinite observations are rejected
+22/29 Test #22: nonfinite observations are rejected .........................................   Passed    0.00 sec
+      Start 23: samples exceeding the documented observation limit are rejected
+23/29 Test #23: samples exceeding the documented observation limit are rejected .............   Passed    0.00 sec
+      Start 24: the documented maximum sample count is accepted
+24/29 Test #24: the documented maximum sample count is accepted .............................   Passed    0.01 sec
+      Start 25: finite extreme loss magnitudes do not overflow weighted means
+25/29 Test #25: finite extreme loss magnitudes do not overflow weighted means ...............   Passed    0.00 sec
+      Start 26: tiny finite nonzero samples retain nonzero statistics
+26/29 Test #26: tiny finite nonzero samples retain nonzero statistics .......................   Passed    0.00 sec
+      Start 27: compensation preserves a small mean between cancelling extreme losses
+27/29 Test #27: compensation preserves a small mean between cancelling extreme losses .......   Passed    0.00 sec
+      Start 28: cli_decimal_oracle
+28/29 Test #28: cli_decimal_oracle ..........................................................   Passed    0.56 sec
+      Start 29: workflow_evidence_checks
+29/29 Test #29: workflow_evidence_checks ....................................................   Passed    0.06 sec
+
+100% tests passed out of 29
+
+Total Test time (real) =   0.69 sec
+[ 80%] Built target benchmark
+[ 88%] Built target risk_core
+[ 96%] Built target risk_benchmark
+[100%] Compare full sorting and partition selection; validate JSON
+Unable to determine clock rate from sysctl: hw.cpufrequency: No such file or directory
+This does not affect benchmark measurements, only the metadata output.
+***WARNING*** Failed to set thread affinity. Estimated CPU frequency may be incorrect.
+2026-10-26T07:16:20-07:00
+Running bin/risk_benchmark
+Run on (15 X 24 MHz CPU s)
+Load Average: 2.65, 2.23, 2.17
+-----------------------------------------------------------------------------------------------
+Benchmark                                                     Time             CPU   Iterations
+-----------------------------------------------------------------------------------------------
+BM_Sort/count:100/confidence_bps:9500                       537 ns          536 ns        51919
+BM_Sort/count:100/confidence_bps:9500                       544 ns          544 ns        51919
+BM_Sort/count:100/confidence_bps:9500                       541 ns          540 ns        51919
+BM_Sort/count:100/confidence_bps:9500_mean                  541 ns          540 ns            3
+BM_Sort/count:100/confidence_bps:9500_median                541 ns          540 ns            3
+BM_Sort/count:100/confidence_bps:9500_stddev               3.71 ns         3.58 ns            3
+BM_Sort/count:100/confidence_bps:9500_cv                   0.69 %          0.66 %             3
+BM_Sort/count:100/confidence_bps:9750                       536 ns          534 ns        52770
+BM_Sort/count:100/confidence_bps:9750                       536 ns          535 ns        52770
+BM_Sort/count:100/confidence_bps:9750                       539 ns          539 ns        52770
+BM_Sort/count:100/confidence_bps:9750_mean                  537 ns          536 ns            3
+BM_Sort/count:100/confidence_bps:9750_median                536 ns          535 ns            3
+BM_Sort/count:100/confidence_bps:9750_stddev               1.83 ns         2.36 ns            3
+BM_Sort/count:100/confidence_bps:9750_cv                   0.34 %          0.44 %             3
+BM_Sort/count:1000/confidence_bps:9500                     7055 ns         7041 ns         3974
+BM_Sort/count:1000/confidence_bps:9500                     6921 ns         6911 ns         3974
+BM_Sort/count:1000/confidence_bps:9500                     6902 ns         6889 ns         3974
+BM_Sort/count:1000/confidence_bps:9500_mean                6960 ns         6947 ns            3
+BM_Sort/count:1000/confidence_bps:9500_median              6921 ns         6911 ns            3
+BM_Sort/count:1000/confidence_bps:9500_stddev              83.5 ns         82.2 ns            3
+BM_Sort/count:1000/confidence_bps:9500_cv                  1.20 %          1.18 %             3
+BM_Sort/count:1000/confidence_bps:9750                     6848 ns         6830 ns         4049
+BM_Sort/count:1000/confidence_bps:9750                     6876 ns         6860 ns         4049
+BM_Sort/count:1000/confidence_bps:9750                     6732 ns         6725 ns         4049
+BM_Sort/count:1000/confidence_bps:9750_mean                6819 ns         6805 ns            3
+BM_Sort/count:1000/confidence_bps:9750_median              6848 ns         6830 ns            3
+BM_Sort/count:1000/confidence_bps:9750_stddev              76.4 ns         70.6 ns            3
+BM_Sort/count:1000/confidence_bps:9750_cv                  1.12 %          1.04 %             3
+BM_Sort/count:10000/confidence_bps:9500                   88359 ns        88231 ns          290
+BM_Sort/count:10000/confidence_bps:9500                   86207 ns        86007 ns          290
+BM_Sort/count:10000/confidence_bps:9500                   85778 ns        85672 ns          290
+BM_Sort/count:10000/confidence_bps:9500_mean              86782 ns        86637 ns            3
+BM_Sort/count:10000/confidence_bps:9500_median            86207 ns        86007 ns            3
+BM_Sort/count:10000/confidence_bps:9500_stddev             1383 ns         1391 ns            3
+BM_Sort/count:10000/confidence_bps:9500_cv                 1.59 %          1.61 %             3
+BM_Sort/count:10000/confidence_bps:9750                   85027 ns        84853 ns          326
+BM_Sort/count:10000/confidence_bps:9750                   87356 ns        87230 ns          326
+BM_Sort/count:10000/confidence_bps:9750                   83825 ns        83706 ns          326
+BM_Sort/count:10000/confidence_bps:9750_mean              85403 ns        85263 ns            3
+BM_Sort/count:10000/confidence_bps:9750_median            85027 ns        84853 ns            3
+BM_Sort/count:10000/confidence_bps:9750_stddev             1795 ns         1798 ns            3
+BM_Sort/count:10000/confidence_bps:9750_cv                 2.10 %          2.11 %             3
+BM_Sort/count:50000/confidence_bps:9500                  767281 ns       764343 ns           35
+BM_Sort/count:50000/confidence_bps:9500                  756795 ns       756257 ns           35
+BM_Sort/count:50000/confidence_bps:9500                  733318 ns       732171 ns           35
+BM_Sort/count:50000/confidence_bps:9500_mean             752465 ns       750924 ns            3
+BM_Sort/count:50000/confidence_bps:9500_median           756795 ns       756257 ns            3
+BM_Sort/count:50000/confidence_bps:9500_stddev            17391 ns        16736 ns            3
+BM_Sort/count:50000/confidence_bps:9500_cv                 2.31 %          2.23 %             3
+BM_Sort/count:50000/confidence_bps:9750                  714769 ns       713216 ns           37
+BM_Sort/count:50000/confidence_bps:9750                  713374 ns       712162 ns           37
+BM_Sort/count:50000/confidence_bps:9750                  710126 ns       709108 ns           37
+BM_Sort/count:50000/confidence_bps:9750_mean             712756 ns       711495 ns            3
+BM_Sort/count:50000/confidence_bps:9750_median           713374 ns       712162 ns            3
+BM_Sort/count:50000/confidence_bps:9750_stddev             2382 ns         2134 ns            3
+BM_Sort/count:50000/confidence_bps:9750_cv                 0.33 %          0.30 %             3
+BM_Sort/count:100000/confidence_bps:9500                1646696 ns      1644118 ns           17
+BM_Sort/count:100000/confidence_bps:9500                1608449 ns      1607118 ns           17
+BM_Sort/count:100000/confidence_bps:9500                1636694 ns      1634353 ns           17
+BM_Sort/count:100000/confidence_bps:9500_mean           1630613 ns      1628529 ns            3
+BM_Sort/count:100000/confidence_bps:9500_median         1636694 ns      1634353 ns            3
+BM_Sort/count:100000/confidence_bps:9500_stddev           19836 ns        19175 ns            3
+BM_Sort/count:100000/confidence_bps:9500_cv                1.22 %          1.18 %             3
+BM_Sort/count:100000/confidence_bps:9750                1625891 ns      1622056 ns           18
+BM_Sort/count:100000/confidence_bps:9750                1634127 ns      1630944 ns           18
+BM_Sort/count:100000/confidence_bps:9750                1634810 ns      1633556 ns           18
+BM_Sort/count:100000/confidence_bps:9750_mean           1631610 ns      1628852 ns            3
+BM_Sort/count:100000/confidence_bps:9750_median         1634127 ns      1630944 ns            3
+BM_Sort/count:100000/confidence_bps:9750_stddev            4964 ns         6029 ns            3
+BM_Sort/count:100000/confidence_bps:9750_cv                0.30 %          0.37 %             3
+BM_Partition/count:100/confidence_bps:9500                  296 ns          296 ns        94276
+BM_Partition/count:100/confidence_bps:9500                  291 ns          291 ns        94276
+BM_Partition/count:100/confidence_bps:9500                  295 ns          295 ns        94276
+BM_Partition/count:100/confidence_bps:9500_mean             294 ns          294 ns            3
+BM_Partition/count:100/confidence_bps:9500_median           295 ns          295 ns            3
+BM_Partition/count:100/confidence_bps:9500_stddev          2.28 ns         2.42 ns            3
+BM_Partition/count:100/confidence_bps:9500_cv              0.78 %          0.83 %             3
+BM_Partition/count:100/confidence_bps:9750                  285 ns          285 ns        98696
+BM_Partition/count:100/confidence_bps:9750                  286 ns          285 ns        98696
+BM_Partition/count:100/confidence_bps:9750                  284 ns          283 ns        98696
+BM_Partition/count:100/confidence_bps:9750_mean             285 ns          284 ns            3
+BM_Partition/count:100/confidence_bps:9750_median           285 ns          285 ns            3
+BM_Partition/count:100/confidence_bps:9750_stddev          1.25 ns         1.25 ns            3
+BM_Partition/count:100/confidence_bps:9750_cv              0.44 %          0.44 %             3
+BM_Partition/count:1000/confidence_bps:9500                3360 ns         3357 ns         8454
+BM_Partition/count:1000/confidence_bps:9500                3380 ns         3378 ns         8454
+BM_Partition/count:1000/confidence_bps:9500                3438 ns         3431 ns         8454
+BM_Partition/count:1000/confidence_bps:9500_mean           3393 ns         3389 ns            3
+BM_Partition/count:1000/confidence_bps:9500_median         3380 ns         3378 ns            3
+BM_Partition/count:1000/confidence_bps:9500_stddev         40.6 ns         38.0 ns            3
+BM_Partition/count:1000/confidence_bps:9500_cv             1.20 %          1.12 %             3
+BM_Partition/count:1000/confidence_bps:9750                3313 ns         3309 ns         8368
+BM_Partition/count:1000/confidence_bps:9750                3298 ns         3294 ns         8368
+BM_Partition/count:1000/confidence_bps:9750                3239 ns         3237 ns         8368
+BM_Partition/count:1000/confidence_bps:9750_mean           3283 ns         3280 ns            3
+BM_Partition/count:1000/confidence_bps:9750_median         3298 ns         3294 ns            3
+BM_Partition/count:1000/confidence_bps:9750_stddev         38.8 ns         38.1 ns            3
+BM_Partition/count:1000/confidence_bps:9750_cv             1.18 %          1.16 %             3
+BM_Partition/count:10000/confidence_bps:9500              30729 ns        30697 ns          878
+BM_Partition/count:10000/confidence_bps:9500              30184 ns        30158 ns          878
+BM_Partition/count:10000/confidence_bps:9500              30062 ns        30040 ns          878
+BM_Partition/count:10000/confidence_bps:9500_mean         30325 ns        30298 ns            3
+BM_Partition/count:10000/confidence_bps:9500_median       30184 ns        30158 ns            3
+BM_Partition/count:10000/confidence_bps:9500_stddev         355 ns          350 ns            3
+BM_Partition/count:10000/confidence_bps:9500_cv            1.17 %          1.16 %             3
+BM_Partition/count:10000/confidence_bps:9750              29008 ns        28986 ns          949
+BM_Partition/count:10000/confidence_bps:9750              29387 ns        29337 ns          949
+BM_Partition/count:10000/confidence_bps:9750              29354 ns        29301 ns          949
+BM_Partition/count:10000/confidence_bps:9750_mean         29250 ns        29208 ns            3
+BM_Partition/count:10000/confidence_bps:9750_median       29354 ns        29301 ns            3
+BM_Partition/count:10000/confidence_bps:9750_stddev         210 ns          193 ns            3
+BM_Partition/count:10000/confidence_bps:9750_cv            0.72 %          0.66 %             3
+BM_Partition/count:50000/confidence_bps:9500             314112 ns       313269 ns           78
+BM_Partition/count:50000/confidence_bps:9500             273770 ns       273192 ns           78
+BM_Partition/count:50000/confidence_bps:9500             255826 ns       255718 ns           78
+BM_Partition/count:50000/confidence_bps:9500_mean        281236 ns       280726 ns            3
+BM_Partition/count:50000/confidence_bps:9500_median      273770 ns       273192 ns            3
+BM_Partition/count:50000/confidence_bps:9500_stddev       29852 ns        29506 ns            3
+BM_Partition/count:50000/confidence_bps:9500_cv           10.61 %         10.51 %             3
+BM_Partition/count:50000/confidence_bps:9750             238805 ns       238383 ns          133
+BM_Partition/count:50000/confidence_bps:9750             216574 ns       216308 ns          133
+BM_Partition/count:50000/confidence_bps:9750             220324 ns       220000 ns          133
+BM_Partition/count:50000/confidence_bps:9750_mean        225234 ns       224897 ns            3
+BM_Partition/count:50000/confidence_bps:9750_median      220324 ns       220000 ns            3
+BM_Partition/count:50000/confidence_bps:9750_stddev       11902 ns        11824 ns            3
+BM_Partition/count:50000/confidence_bps:9750_cv            5.28 %          5.26 %             3
+BM_Partition/count:100000/confidence_bps:9500            487484 ns       487019 ns           54
+BM_Partition/count:100000/confidence_bps:9500            492856 ns       492556 ns           54
+BM_Partition/count:100000/confidence_bps:9500            471444 ns       470685 ns           54
+BM_Partition/count:100000/confidence_bps:9500_mean       483928 ns       483420 ns            3
+BM_Partition/count:100000/confidence_bps:9500_median     487484 ns       487019 ns            3
+BM_Partition/count:100000/confidence_bps:9500_stddev      11140 ns        11371 ns            3
+BM_Partition/count:100000/confidence_bps:9500_cv           2.30 %          2.35 %             3
+BM_Partition/count:100000/confidence_bps:9750            503046 ns       502441 ns           59
+BM_Partition/count:100000/confidence_bps:9750            466011 ns       465356 ns           59
+BM_Partition/count:100000/confidence_bps:9750            464226 ns       463780 ns           59
+BM_Partition/count:100000/confidence_bps:9750_mean       477761 ns       477192 ns            3
+BM_Partition/count:100000/confidence_bps:9750_median     466011 ns       465356 ns            3
+BM_Partition/count:100000/confidence_bps:9750_stddev      21916 ns        21880 ns            3
+BM_Partition/count:100000/confidence_bps:9750_cv           4.59 %          4.59 %             3
+Benchmark validation passed: 20 workloads, 60 measured repetitions, 140 JSON records.
+[100%] Built target run_benchmarks
+[100%] Generate Doxygen HTML and validate local links
+Documentation validation passed: 38 HTML pages, 947 local references.
+[100%] Built target docs
+Verification complete: build, tests, benchmark JSON and documentation passed.

@@ -1,0 +1,66 @@
+{
+  "project": "Historical Loss Risk",
+  "project_version": "1.0.0",
+  "checked_on": "2026-10-26",
+  "status": "Local source-transfer verification passed; public repository, CI and Pages pending owner setup",
+  "source_files": 31,
+  "source_manifest": "source-sha256.json",
+  "reproduction": "Fresh ZIP extraction into an independent temporary directory",
+  "command": "bash scripts/verify.sh <temporary-build-directory>",
+  "exit_code": 0,
+  "platform": "Darwin arm64",
+  "tools": {
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "cmake": "cmake version 4.4.3",
+    "python": "Python 3.14.6",
+    "doxygen": "1.18.0"
+  },
+  "ctest_passed": 29,
+  "doctest_cases": 27,
+  "doctest_assertions": 613,
+  "cli_oracle": {
+    "decimal_precision": 420,
+    "metric_comparisons": 504,
+    "exact_subnormal_checks": 8,
+    "valid_calls": 128,
+    "invalid_inputs": 31,
+    "defaults_and_help_passed": true
+  },
+  "workflow_tool_tests": 10,
+  "benchmark": {
+    "workloads": 20,
+    "repetitions": 3,
+    "raw_rows": 60,
+    "aggregate_rows": 80,
+    "total_rows": 140,
+    "report_data": "benchmark-report.json",
+    "reproduction_data": "benchmark-reproduction.json"
+  },
+  "documentation": {
+    "html_pages": 38,
+    "local_references_checked": 947,
+    "broken_references": 0,
+    "offline_archive": "doxygen-html.zip"
+  },
+  "examples": [
+    "example-8000-output.csv",
+    "example-8250-output.csv"
+  ],
+  "full_log": "local-verify.log",
+  "public_repository": {
+    "configured": false,
+    "published": false
+  },
+  "github_actions": {
+    "workflow_configured": true,
+    "executed": false
+  },
+  "github_pages": {
+    "workflow_configured": true,
+    "published": false
+  },
+  "windows": {
+    "workflow_configured": true,
+    "executed_locally": false
+  }
+}
