@@ -6,8 +6,8 @@ implementation using `std::nth_element`. The statistics have explicit quantile
 and fractional-tail definitions, including tied observations.
 
 <!-- repository-links:start -->
-**Public repository:** [https://github.com/MIN-JX/historical-risk-cpp](https://github.com/MIN-JX/historical-risk-cpp)  
-**Documentation:** [https://MIN-JX.github.io/historical-risk-cpp/](https://MIN-JX.github.io/historical-risk-cpp/)
+**Public repository:** [https://github.com/MIN-JX/historical-risk-cpp-hw](https://github.com/MIN-JX/historical-risk-cpp-hw)  
+**Documentation:** [https://MIN-JX.github.io/historical-risk-cpp-hw/](https://MIN-JX.github.io/historical-risk-cpp-hw/)
 <!-- repository-links:end -->
 
 ## Run the project
